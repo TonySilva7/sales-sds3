@@ -1,15 +1,13 @@
 package com.tony.backend.entities;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
 @Entity
 @Table(name = "tb_sellers")
-public class Seller implements Serializable {
-    public static final long serialVersionUID = 1L;
+public class Seller {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,10 +23,6 @@ public class Seller implements Serializable {
     public Seller(Long id, String name) {
         this.id = id;
         this.name = name;
-    }
-
-    public static long getSerialVersionUID() {
-        return serialVersionUID;
     }
 
     public Long getId() {
