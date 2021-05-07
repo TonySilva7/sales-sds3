@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from 'react';
 import Chart from 'react-apexcharts';
-import { SaleSuccess } from "../../Types/sail";
+import { SaleSuccess } from "../../Types/sale";
 import { round } from "../../utils/format";
 import { BASE_URL } from "../../utils/Requests";
 
