@@ -1,15 +1,17 @@
 import React from 'react';
+import "./Styles.css";
 
 function Footer() {
   return (
     <footer className="footer mt-auto py-3 bg-dark">
       <div className="container">
-        <p className="text-light"> App desenvolvido por <a href="https://github.com/acenelio" target="_blank" rel="noreferrer">Tony Silva</a></p>
+        <p className="text-light"> App desenvolvido por <a href="https://github.com/TonySilva7" target="_blank" rel="noreferrer" className="txt-footer">Tony Silva</a></p>
         <p className="text-light">
           <small>
             <strong>Semana Spring React</strong><br/>
             Evento promovido pela escola DevSuperior:
             <a href="https://instagram.com/devsuperior.ig" target="_blank"
+               className="txt-footer"
                rel="noreferrer">@devsuperior.ig
             </a>
           </small>

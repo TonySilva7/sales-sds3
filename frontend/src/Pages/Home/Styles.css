@@ -1,0 +1,22 @@
+.btn-dboard {
+    background: #7A76B7;
+    border: solid 1px #b8e9f7;
+}
+
+.btn-dboard:hover {
+    background: #b8e9f7;
+    border: solid 1px #7A76B7;
+    color: #7A76B7;
+}
+
+div > h1 {
+    color: #7A76B7;
+}
+
+div > h1 + p {
+    color: #7A76B7;
+}
+
+div > p:nth-child(4) {
+    color: #858585;
+}
